@@ -1,0 +1,91 @@
+/* Global rules */
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+  --large-padding: 24px;
+  --mid-padding: 12px;
+  --sec-mid-padding: 8px;
+  --mini-padding: 4px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  font-size: 16px;
+  line-height: 150%;
+}
+h1 {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: bold;
+}
+body {
+  background-color: var(--Yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+span {
+  display: block;
+  margin-bottom: var(--mid-padding);
+}
+/* start box  */
+.box {
+  width: 384px;
+  height: 522px;
+  background-color: var(--White);
+  border-radius: 24px;
+  padding: var(--large-padding);
+  box-shadow: 11px 8px 0px 0px;
+}
+.box img {
+  border-radius: 10px;
+  margin-bottom: var(--large-padding);
+}
+.box .text .tag {
+  background-color: var(--Yellow);
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: bold;
+  padding: var(--mini-padding) var(--mid-padding);
+  width: fit-content;
+}
+.box .text .date {
+  font-size: 14px;
+  line-height: 150%;
+}
+.box .text h1 {
+  margin-bottom: var(--mid-padding);
+  color: var(--Gray-950);
+  transition: 0.3s;
+}
+.box .text h1:hover {
+  cursor: pointer;
+  color: var(--Yellow);
+}
+.box .text p {
+  color: var(--Gray-500);
+}
+.box .person {
+  margin-top: var(--large-padding);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.box .person img {
+  width: 32px;
+  margin-right: var(--mid-padding);
+  margin-top: var(--mid-padding);
+}
+.box .person span {
+  color: var(--Gray-950);
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: bold;
+}
+/* end box  */
