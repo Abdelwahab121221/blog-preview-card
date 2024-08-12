@@ -70,6 +70,7 @@ span {
   border-radius: 24px;
   padding: var(--large-padding);
   box-shadow: 11px 8px 0px 0px;
+  border: 1px solid var(--Gray-950);
 }
 .box img {
   border-radius: 10px;
@@ -100,7 +101,6 @@ span {
   color: var(--Gray-500);
 }
 .box .person {
-  margin-top: var(--large-padding);
   display: flex;
   justify-content: start;
   align-items: center;
